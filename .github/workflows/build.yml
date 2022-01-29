@@ -41,7 +41,7 @@ jobs:
       run: xvfb-run -a build/release/bin/monero-wallet-gui --test-qml
 
   build-windows:
-    runs-on: windows-latest
+    runs-on: windows-2022
     defaults:
       run:
         shell: msys2 {0}
